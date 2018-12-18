@@ -35,7 +35,6 @@ class OrderShipped extends Mailable
     public function build()
     {
         return $this->view('emails.orders.shipped')
-            ->text('emails.prders.shipped_plane')
             ->with([
                 'orderName' => $this->order->name,
                 'orderPrice' => $this->order->price,
