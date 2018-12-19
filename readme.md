@@ -1,7 +1,3 @@
-# Laravel Sample
-
-Laravel のサンプル 
-
 ## 開発環境構築
 
 #### アプリケーションの構築
