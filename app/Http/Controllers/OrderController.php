@@ -12,7 +12,7 @@ class OrderController extends Controller
     {
         $order = Order::findOrFail($orderId);
 
-        Mail::to('rnakamine8080@gmail.com')->send(new OrderShipped($order));
+        Mail::to('hello@example.com')->send(new OrderShipped($order));
 
         return redirect('/');
     }
